@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="dark_mode"
+        android:title="@string/title_outward"
+        >
+        <Preference
+            android:title="@string/timed_on_off"
+            android:key="timed_on_off"
+            />
+        <Preference
+            android:title="@string/more_darkmode_settings"
+            android:key="more_darkmode_settings"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="system"
+        android:title="@string/title_system"
+        >
+        <Preference
+            android:title="@string/Vr_mode"
+            android:key="vr_mode"
+            />
+        <Preference
+            android:title="@string/rotation_device"
+            android:key="rotation_device"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

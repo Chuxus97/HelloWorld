@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditorViewPreference">
+        <attr name="defaulttext" format="string" />
+        <attr name="shoulduse" format="boolean" />
+    </declare-styleable>
+</resources>

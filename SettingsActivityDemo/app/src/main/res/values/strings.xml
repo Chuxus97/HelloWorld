@@ -2,6 +2,7 @@
     <string name="app_name">SettingsActivityDemo</string>
     <!-- Settings Activity Title -->
     <string name="title_activity_settings">Settings</string>
+    <string name="button_title">启动设置</string>
 
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
@@ -17,4 +18,14 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="search_box">搜索系统设置项</string>
+    <!--显示页面-->
+    <string name="title_outward">外观</string>
+    <string name="timed_on_off">定时开启深色模式</string>
+    <string name="more_darkmode_settings">更多深色模式设置</string>
+
+    <string name="title_system">系统</string>
+    <string name="Vr_mode">当设备处于vr模式时</string>
+    <string name="rotation_device">自动旋转屏幕</string>
 </resources>

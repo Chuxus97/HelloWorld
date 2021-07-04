@@ -1,35 +1,47 @@
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory app:title="@string/messages_header">
+    <com.example.settingsactivitydemo.EditorViewPreference
+        app:key="search_box"
+        app:defaulttext="@string/search_box"/>
 
-        <EditTextPreference
-            app:key="signature"
-            app:title="@string/signature_title"
-            app:useSimpleSummaryProvider="true" />
+    <Preference
+        android:title="我的设备"
+        />
 
-        <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:key="reply"
-            app:title="@string/reply_title"
-            app:useSimpleSummaryProvider="true" />
+    <Preference
+        android:title="双卡与移动网络"
+        />
 
-    </PreferenceCategory>
+    <Preference
+        android:title="WLAN"
+        />
+    <Preference
+        android:title="蓝牙"
+        />
 
-    <PreferenceCategory app:title="@string/sync_header">
+    <Preference
+        android:title="个人热点"
+        />
 
-        <SwitchPreferenceCompat
-            app:key="sync"
-            app:title="@string/sync_title" />
 
-        <SwitchPreferenceCompat
-            app:dependency="sync"
-            app:key="attachment"
-            app:summaryOff="@string/attachment_summary_off"
-            app:summaryOn="@string/attachment_summary_on"
-            app:title="@string/attachment_title" />
+    <Preference
+        android:title="VPN"
+        />
 
-    </PreferenceCategory>
+    <Preference
+        android:title="链接与共享"
+        />
+
+    <Preference
+        android:title="壁纸与个性化"
+        />
+
+    <Preference
+        android:title="熄屏与锁屏" />
+
+    <Preference
+        android:title="显示"
+        android:key="display_settings"/>
 
 </PreferenceScreen>
